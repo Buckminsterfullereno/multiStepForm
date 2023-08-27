@@ -1,1 +1,8 @@
-.html complete, no bugs found.
+    .html complete, no bugs found.
+
+    Several bugs found on the second revision. In the .html code, inside the
+step-row div, I had progress as a class and not an id. Also, the div closing
+element was under the three step-col classes.
+
+    In the styles.css I was missing the entire style for .container form 
+    making my app not show the step the user is currently on.
